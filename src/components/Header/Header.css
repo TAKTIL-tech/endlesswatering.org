@@ -1,0 +1,52 @@
+.header_container {
+    height: 100%;
+    padding-left: 24px;
+    padding-right: 21px;
+    position: relative;
+}
+
+.header_logo {
+    padding-top: 20px;
+}
+
+.header_title {
+    width: 272px;
+    margin-top: 53px;
+
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 112%;
+
+    color: #556645;
+}
+
+.header_description {
+    width: 198px;
+    margin-top: 8px;
+
+    font-size: 14px;
+    line-height: 17px;
+    color: #433836;
+}
+
+.header_button {
+    width: 163px;
+    height: 40px;
+    margin-top: 14px;
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    color: #FFFEFC;
+
+    border-radius: 6px;
+
+    outline: none;
+    border: none;
+    background-color: #556645;
+}
+
+.header_background_bottle {
+    margin-top: 75px;
+    margin-left: -24px;
+}

@@ -1,0 +1,20 @@
+.background_tree_top{
+    position: absolute;
+    right: -24px;
+    top: -10px;
+}
+
+.background_tree_trunk{
+    width: 25px;
+    height: 4600px;
+    background-color: #FFA775;
+
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+
+.background_tree_branch{
+    position: absolute;
+    right: 23px;
+}
