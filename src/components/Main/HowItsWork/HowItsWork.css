@@ -1,0 +1,56 @@
+.how_its_work_header {
+    width: 272px;
+    margin-top: 76px;
+    margin-left: 24px;
+
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #556645;
+}
+
+.how_its_work_video_container {
+    height: 211px;
+
+    margin-left: 12px;
+    margin-right: 12px;
+
+    background-color: #556645;
+
+    border-radius: 8px;
+}
+
+.how_its_work_header_instruction_wrapper {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.how_its_work_instruction_list {
+
+    list-style: none;
+    margin: 40px auto 0;
+    padding: 0;
+}
+
+.how_its_work_instruction_item {
+    max-width: 272px;
+    margin-top: 12px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #433836;
+}
+
+.how_its_work_qr {
+    display: block;
+
+    margin-top: 12px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #3C98BF;
+
+    text-decoration: underline;
+}
