@@ -29,7 +29,7 @@ const HowItsWork = () => {
                     </li>
                 </ul>
 
-                <a className='how_its_work_qr'>
+                <a href={'#'} className='how_its_work_qr'>
                     Скачать QR-код здесь
                 </a>
             </div>

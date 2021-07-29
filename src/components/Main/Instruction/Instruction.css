@@ -1,0 +1,13 @@
+.instruction_section{
+    margin-left: 24px;
+}
+
+.instruction_header {
+    width: 272px;
+    margin-top: 76px;
+
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #556645;
+}
