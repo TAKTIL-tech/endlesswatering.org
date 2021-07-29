@@ -3,8 +3,10 @@ import './Problem.css';
 
 const Problem = () => {
     return (
-        <section className='problem_container'>
-            <h2 className='problem_header'>В чем проблема?</h2>
+        <section className='problem_section'>
+            <h2 className='problem_header'>
+                В чем проблема?
+            </h2>
             <ul className='problem_list'>
                 <li className='problem_list_item'>
                     <div className='problem_list_item_number'>1</div>

@@ -1,0 +1,30 @@
+.solve_section{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.solve_header{
+    width: 272px;
+    margin-top: 76px;
+
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #556645;
+}
+
+.solve_text{
+    max-width: 290px;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #433836;
+}
+
+.solve_text > span{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    color: #556645;
+}

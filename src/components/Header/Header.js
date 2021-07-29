@@ -2,6 +2,13 @@ import React from 'react';
 import './Header.css';
 
 const Header = () => {
+    const handleClickHeaderButton = () => {
+        window.scrollTo({
+            top: 800,
+            behavior: "smooth"
+        });
+    }
+
     return (
         <header className='app_header'>
             <div className='header_container'>
@@ -17,7 +24,7 @@ const Header = () => {
                     Простейший капельный полив, который экономит воду и спасает растение
                 </div>
 
-                <button className='header_button' type='button'>
+                <button className='header_button' type='button' onClick={handleClickHeaderButton}>
                     Узнать больше
                 </button>
 

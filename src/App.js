@@ -10,11 +10,8 @@ const App = () => {
     return (
         <div className='app'>
             <BackgroundTree/>
-
             <Header/>
-
             <Main/>
-
             <Footer/>
         </div>
     );
