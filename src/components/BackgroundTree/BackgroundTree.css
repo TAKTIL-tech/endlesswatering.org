@@ -1,11 +1,15 @@
-.background_tree_top{
+.background_container {
+
+}
+
+.background_tree_top {
     position: absolute;
-    right: -24px;
+    right: 0;
     top: -10px;
 }
 
-.background_tree_trunk{
-    width: 25px;
+.background_tree_trunk {
+    width: 31px;
     height: 5000px;
     background-color: #FFA775;
 
@@ -14,7 +18,7 @@
     z-index: -10;
 }
 
-.background_tree_branch{
+.background_tree_branch {
     position: absolute;
     right: 14px;
 }

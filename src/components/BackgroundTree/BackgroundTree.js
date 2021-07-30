@@ -3,7 +3,7 @@ import './BackgroundTree.css';
 
 const BackgroundTree = () => {
     return (
-        <>
+        <div className='background_container'>
             <div className='background_tree_top'>
                 <img src={'./assets/images/backgroundTree/tree_top.svg'} alt={'header background tree'}/>
             </div>
@@ -29,7 +29,7 @@ const BackgroundTree = () => {
             <div className='background_tree_branch' style={{top: '4461px'}}>
                 <img src={'./assets/images/backgroundTree/tree_branch_02.svg'} alt={'header background branch'}/>
             </div>
-        </>
+        </div>
     );
 };
 
