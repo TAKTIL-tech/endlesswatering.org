@@ -10,7 +10,7 @@ const Header = () => {
     }
 
     return (
-        <header className='app_header' data-aos={'slide-right'}>
+        <header className='app_header'>
             <div className='header_container'>
                 <div className='header_logo'>
                     <img src={'./assets/images/header/logo.svg'} alt={'site logo'}/>
@@ -30,6 +30,9 @@ const Header = () => {
 
                 <div className='header_background_bottle'>
                     <img src={'./assets/images/header/header_bottle.svg'} alt={'header background bottle'}/>
+                </div>
+                <div className='header_background_drops'>
+                    <img src={'./assets/images/header/header_drops.svg'} alt={'header background drops'}/>
                 </div>
             </div>
         </header>

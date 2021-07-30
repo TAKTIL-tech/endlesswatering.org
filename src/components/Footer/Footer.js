@@ -4,7 +4,7 @@ import './Footer.css';
 const Footer = () => {
     return (
         <footer className='app_footer'>
-            <div className='footer_container' data-aos={'slide-right'} data-aos-offset={'850'}>
+            <div className='footer_container'>
                 <div className='footer_header'>
                     Помогите распространить идею
                 </div>
