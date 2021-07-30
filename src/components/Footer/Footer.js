@@ -20,7 +20,7 @@ const Footer = () => {
                         </a>
                     </li>
                     <li className='footer_list_item'>
-                        <a href={'https://www.facebook.com/sharer.php?u=https%3A%2F%2endlesswatering.org'}>
+                        <a href={'https://www.facebook.com/sharer.php?u=https%3A%2F%2Fendlesswatering.org'}>
                             <img src={'./assets/images/footer/footer_facebook.svg'} alt={'footer social link'}/>
                         </a>
                     </li>
