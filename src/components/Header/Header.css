@@ -21,7 +21,7 @@
 
 .header_description {
     width: 198px;
-    margin-top: 8px;
+    margin-top: 20px;
 
     font-size: 14px;
     line-height: 17px;
@@ -31,7 +31,7 @@
 .header_button {
     width: 163px;
     height: 48px;
-    margin-top: 14px;
+    margin-top: 20px;
 
     font-size: 14px;
     font-weight: 700;

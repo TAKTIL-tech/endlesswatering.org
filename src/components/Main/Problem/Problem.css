@@ -17,7 +17,7 @@
 
 .problem_list_item {
     width: 100vw;
-    height: 294px;
+    height: 280px;
 
     margin-bottom: 40px;
     padding-top: 40px;
@@ -43,15 +43,17 @@
     color: #FFFEFC;
 
     position: absolute;
-    left: 15px;
+    left: 24px;
     top: 10px;
 }
 
 .problem_list_item_description {
-    width: 198px;
+    width: 215px;
 
     font-size: 14px;
     font-weight: 400;
     line-height: 17px;
     color: #FFFEFC;
+
+    text-align: center;
 }

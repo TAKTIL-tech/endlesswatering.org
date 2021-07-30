@@ -12,9 +12,10 @@ import BackgroundTree from "./components/BackgroundTree/BackgroundTree";
 const App = () => {
     useEffect(() => {
         aos.init({
-            duration: 500,
+            duration: 800,
             easing: 'linear',
-            offset: 450,
+            offset: 300,
+            once: true
         });
     }, []);
 

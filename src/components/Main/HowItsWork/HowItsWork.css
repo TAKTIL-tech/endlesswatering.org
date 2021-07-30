@@ -33,7 +33,7 @@
 }
 
 .how_its_work_instruction_item {
-    max-width: 272px;
+    max-width: calc(100% - 24px);
     margin-top: 12px;
 
     font-weight: 400;
