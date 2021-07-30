@@ -4,13 +4,13 @@ import './HowItsWork.css';
 const HowItsWork = () => {
     return (
         <section className='how_its_work_section'>
-            <h2 className='how_its_work_header'>
+            <h2 className='how_its_work_header' data-aos={'fade-up'}>
                 Как это работает?
             </h2>
-            <div className='how_its_work_video_container'>
+            <div className='how_its_work_video_container' data-aos={'fade-up'}>
                 <video></video>
             </div>
-            <div className='how_its_work_header_instruction_wrapper'>
+            <div className='how_its_work_header_instruction_wrapper' data-aos={'fade-up'}>
                 <ul className='how_its_work_instruction_list'>
                     <li className='how_its_work_instruction_item'>
                         - Бутылку с водой ставим под растение (с солнечной стороны)

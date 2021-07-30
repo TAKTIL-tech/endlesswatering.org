@@ -4,7 +4,7 @@ import './Footer.css';
 const Footer = () => {
     return (
         <footer className='app_footer'>
-            <div className='footer_container'>
+            <div className='footer_container' data-aos={'slide-right'} data-aos-offset={'1700'}>
                 <div className='footer_header'>
                     Помогите распространить идею
                 </div>
@@ -33,10 +33,7 @@ const Footer = () => {
                     <p className='footer_sponsored_text'>
                         Sponsored by
                     </p>
-                    <div className='footer_sponsored_wrapper'>
-                        <img src={'./assets/images/footer/footer_elang.svg'} alt={'elang logo'}/>
-                        <img src={'./assets/images/footer/footer_elang_text.svg'} alt={'elang title'}/>
-                    </div>
+                    <img src={'./assets/images/footer/footer_elang_logo.svg'} alt={'elang logo'}/>
                 </div>
             </div>
 

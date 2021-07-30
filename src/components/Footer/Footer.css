@@ -41,7 +41,6 @@
 
 .footer_qr_container {
     margin-top: 56px;
-
     display: flex;
 }
 
@@ -81,15 +80,6 @@
     color: #FFF8ED;
 }
 
-.footer_sponsored_wrapper {
-    display: flex;
-}
-
-.footer_sponsored_wrapper > img {
-    margin-left: 18px;
-}
-
-
 .footer_background {
     width: 100%;
     height: 1050px;
@@ -98,6 +88,7 @@
     background-repeat: no-repeat;
 
     position: absolute;
+
     z-index: -5;
     top: 0;
     left: 0;
@@ -105,6 +96,7 @@
 
 .footer_root_first {
     position: absolute;
+
     top: 10px;
     right: 0;
     z-index: -3;
@@ -112,8 +104,8 @@
 
 .footer_root_second {
     position: absolute;
+
     top: 100px;
     right: 0;
-
     z-index: -4;
 }

@@ -3,7 +3,7 @@ import './Instruction.css';
 
 const Instruction = () => {
     return (
-        <section className='instruction_section'>
+        <section className='instruction_section' data-aos={'fade-up'}>
             <h2 className='instruction_header'>
                 Как это работает?
             </h2>

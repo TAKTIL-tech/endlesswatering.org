@@ -2,13 +2,14 @@ import React from 'react';
 import './Problem.css';
 
 const Problem = () => {
+
     return (
         <section className='problem_section'>
-            <h2 className='problem_header'>
+            <h2 className='problem_header' data-aos={'fade-up'}>
                 В чем проблема?
             </h2>
             <ul className='problem_list'>
-                <li className='problem_list_item'>
+                <li className='problem_list_item' data-aos={'fade-up'}>
                     <div className='problem_list_item_number'>1</div>
                     <img src={'./assets/images/problem/problem_01.svg'} alt={'problem'}/>
                     <p className='problem_list_item_description'>
@@ -16,7 +17,7 @@ const Problem = () => {
                     </p>
                 </li>
 
-                <li className='problem_list_item'>
+                <li className='problem_list_item' data-aos={'fade-up'}>
                     <div className='problem_list_item_number'>2</div>
                     <img src={'./assets/images/problem/problem_02.svg'} alt={'problem'}/>
                     <p className='problem_list_item_description'>
@@ -24,7 +25,7 @@ const Problem = () => {
                     </p>
                 </li>
 
-                <li className='problem_list_item'>
+                <li className='problem_list_item' data-aos={'fade-up'}>
                     <div className='problem_list_item_number'>3</div>
                     <img src={'./assets/images/problem/problem_03.svg'} alt={'problem'}/>
                     <p className='problem_list_item_description'>

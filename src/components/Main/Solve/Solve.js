@@ -3,7 +3,7 @@ import './Solve.css';
 
 const Solve = () => {
     return (
-        <section className='solve_section'>
+        <section className='solve_section' data-aos={'fade-up'}>
             <h2 className='solve_header'>
                 Решение!
             </h2>

@@ -10,7 +10,7 @@ const Header = () => {
     }
 
     return (
-        <header className='app_header'>
+        <header className='app_header' data-aos={'slide-right'}>
             <div className='header_container'>
                 <div className='header_logo'>
                     <img src={'./assets/images/header/logo.svg'} alt={'site logo'}/>
