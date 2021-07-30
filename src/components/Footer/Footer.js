@@ -34,7 +34,9 @@ const Footer = () => {
                 <div className='footer_qr_container'>
                     <img src={'./assets/images/footer/footer_qr.svg'} alt={'footer qr'}/>
                     <a className='footer_qr_text'
-                       href={'https://drive.google.com/file/d/1dqGhOvILzQQuBTdmiW1LkLScXW8NKSlf/view'}
+                       rel="noreferrer"
+                       href={'./assets/qr-endlesswatering.pdf'}
+                       target="_blank"
                     >
                         Скачать QR-код
                     </a>

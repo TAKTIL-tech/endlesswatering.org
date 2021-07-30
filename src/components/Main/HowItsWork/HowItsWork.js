@@ -1,28 +1,14 @@
-import React, {useEffect, useRef} from 'react';
+import React from 'react';
 import './HowItsWork.css';
 
 const HowItsWork = () => {
-    const videoRef = useRef();
-
-    useEffect(() => {
-        document.addEventListener('scroll', (eo) => {
-            if (videoRef.current) {
-                if (window.scrollY > 1800 && window.scrollY < 2500) {
-                    videoRef.current.play();
-                } else {
-                    videoRef.current.pause();
-                }
-            }
-        });
-    }, []);
-
     return (
         <section className='how_its_work_section'>
             <h2 className='how_its_work_header' data-aos={'fade-up'}>
                 Как это работает?
             </h2>
             <div className='how_its_work_video_container' data-aos={'fade-up'}>
-                <video ref={videoRef} controls width="100%" height="100%" muted>
+                <video controls width="100%" height="100%" muted poster={'./assets/images/video/poster.jpg'}>
                     <source
                         src={'./assets/images/video/video.mp4'}
                         type='video/mp4'/>
@@ -48,7 +34,9 @@ const HowItsWork = () => {
                 </ul>
 
                 <a className='how_its_work_qr'
-                   href={'https://drive.google.com/file/d/1dqGhOvILzQQuBTdmiW1LkLScXW8NKSlf/view'}
+                   rel="noreferrer"
+                   href={'./assets/qr-endlesswatering.pdf'}
+                   target="_blank"
                 >
                     Скачать QR-код здесь
                 </a>
