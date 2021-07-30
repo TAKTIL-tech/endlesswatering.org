@@ -14,7 +14,7 @@ const App = () => {
         aos.init({
             duration: 500,
             easing: 'ease-in-out',
-            offset: 300,
+            offset: 250,
             once: true
         });
     }, []);

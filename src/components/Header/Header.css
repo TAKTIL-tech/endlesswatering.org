@@ -46,6 +46,24 @@
 }
 
 .header_background_bottle {
-    margin-top: 75px;
+    margin-top: 60px;
+    margin-bottom: 100px;
     margin-left: -24px;
+    transform-origin: 0 0;
+    transform: rotate(15deg);
+
+    animation: 1.5s linear bottle_rotate;
+}
+
+@keyframes bottle_rotate {
+    0% {
+        transform: rotate(0);
+    }
+    60%{
+        transform: rotate(0);
+    }
+    100% {
+        transform-origin: 0 0 ;
+        transform: rotate(15deg);
+    }
 }
