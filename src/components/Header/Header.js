@@ -28,12 +28,21 @@ const Header = () => {
                     Узнать больше
                 </button>
 
-                <div className='header_background_bottle'>
+                <div className='header_background_bottle_drops'>
+                    <img src={'./assets/images/header/header_bottle_drops.svg'} alt={'header background bottle'}/>
+                </div>
+ {/*               <div className='header_background_bottle'>
                     <img src={'./assets/images/header/header_bottle.svg'} alt={'header background bottle'}/>
                 </div>
-                <div className='header_background_drops'>
-                    <img src={'./assets/images/header/header_drops.svg'} alt={'header background drops'}/>
+                <div className='header_background_drop_one'>
+                    <img src={'./assets/images/header/header_drop_01.svg'} alt={'header background drops'}/>
                 </div>
+                <div className='header_background_drop_two'>
+                    <img src={'./assets/images/header/header_drop_02.svg'} alt={'header background drops'}/>
+                </div>
+                <div className='header_background_drop_three'>
+                    <img src={'./assets/images/header/header_drop_03.svg'} alt={'header background drops'}/>
+                </div>*/}
             </div>
         </header>
     );

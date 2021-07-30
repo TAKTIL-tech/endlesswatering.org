@@ -14,19 +14,30 @@ const Footer = () => {
                 </span>
                 <ul className='footer_list'>
                     <li className='footer_list_item'>
-                        <img src={'./assets/images/footer/footer_gmail.svg'} alt={'footer social link'}/>
+                        <a href={'https://www.instagram.com/?url=https://endlesswatering.org'} target="_blank"
+                           rel="noopener">
+                            <img src={'./assets/images/footer/footer_instagram.svg'} alt={'footer social link'}/>
+                        </a>
                     </li>
                     <li className='footer_list_item'>
-                        <img src={'./assets/images/footer/footer_instagram.svg'} alt={'footer social link'}/>
+                        <a href={'https://www.facebook.com/sharer.php?u=https%3A%2F%2endlesswatering.org'}>
+                            <img src={'./assets/images/footer/footer_facebook.svg'} alt={'footer social link'}/>
+                        </a>
                     </li>
                     <li className='footer_list_item'>
-                        <img src={'./assets/images/footer/footer_facebook.svg'} alt={'footer social link'}/>
+                        <a href={'https://twitter.com/intent/tweet?url=https%3A%2F%2Fendlesswatering.org'}>
+                            <img src={'./assets/images/footer/footer_twitter.svg'} alt={'footer social link'}/>
+                        </a>
                     </li>
                 </ul>
 
                 <div className='footer_qr_container'>
                     <img src={'./assets/images/footer/footer_qr.svg'} alt={'footer qr'}/>
-                    <div className='footer_qr_text'>Скачать QR-код</div>
+                    <a className='footer_qr_text'
+                       href={'https://drive.google.com/file/d/1dqGhOvILzQQuBTdmiW1LkLScXW8NKSlf/view'}
+                    >
+                        Скачать QR-код
+                    </a>
                 </div>
 
                 <div className='footer_sponsored_container'>

@@ -45,6 +45,13 @@
     background-color: #556645;
 }
 
+.header_background_bottle_drops {
+    margin-top: 60px;
+    margin-left: -24px;
+}
+
+
+/* Animation */
 .header_background_bottle {
     margin-top: 60px;
     margin-bottom: 100px;
@@ -78,7 +85,27 @@
     }
 }
 
-.header_background_drops {
+.header_background_drop_one {
+    margin-top: 60px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    transform: translateY(-70px);
+    opacity: 0;
+
+    animation: linear infinite 6s drops_down;
+}
+
+.header_background_drop_two {
+    margin-top: 60px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    transform: translateY(-70px);
+    opacity: 0;
+
+    animation: linear infinite 6s drops_down;
+}
+
+.header_background_drop_three {
     margin-top: 60px;
     margin-bottom: 100px;
     margin-left: 150px;
