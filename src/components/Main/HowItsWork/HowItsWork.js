@@ -29,7 +29,8 @@ const HowItsWork = () => {
                     </li>
                 </ul>
 
-                <a href={'#'} className='how_its_work_qr'>
+                <a href={'https://drive.google.com/file/d/1dqGhOvILzQQuBTdmiW1LkLScXW8NKSlf/view'}
+                   className='how_its_work_qr'>
                     Скачать QR-код здесь
                 </a>
             </div>
