@@ -3,6 +3,7 @@ import './App.css';
 
 import aos from 'aos';
 import "aos/dist/aos.css";
+import {YMInitializer} from "react-yandex-metrika";
 
 import Header from "./components/Header/Header";
 import Main from "./components/Main/Main";
@@ -24,6 +25,10 @@ const App = () => {
             <Header/>
             <Main/>
             <Footer/>
+            <div>
+                <YMInitializer accounts={[83549296]} version='2'
+                               options={{webvisor: true, clickmap: true, trackLinks: true, accurateTrackBounce: true}}/>
+            </div>
         </div>
     );
 }
