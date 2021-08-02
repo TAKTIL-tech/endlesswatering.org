@@ -29,7 +29,7 @@ const Header = () => {
                 </button>
 
                 <div className='header_background_bottle_drops'>
-                    <object data={'./assets/images/header/bottle_drops.svg'} type='image/svg+xml'/>
+                    <object data={'./assets/images/header/bottle_drops.svg'} aria-label='svg' type='image/svg+xml'/>
                 </div>
             </div>
         </header>

@@ -15,7 +15,7 @@ const Footer = () => {
                 <ul className='footer_list'>
                     <li className='footer_list_item'>
                         <a href={'https://www.instagram.com/?url=https://endlesswatering.org'} target="_blank"
-                           rel="noopener">
+                           rel="noreferrer">
                             <img src={'./assets/images/footer/footer_instagram.svg'} alt={'footer social link'}/>
                         </a>
                     </li>
@@ -46,7 +46,9 @@ const Footer = () => {
                     <p className='footer_sponsored_text'>
                         Sponsored by
                     </p>
-                    <img src={'./assets/images/footer/footer_elang_logo.svg'} alt={'elang logo'}/>
+                    <a href='https://elang.app'>
+                        <img src={'./assets/images/footer/footer_elang_logo.svg'} alt={'elang logo'}/>
+                    </a>
                 </div>
             </div>
 
