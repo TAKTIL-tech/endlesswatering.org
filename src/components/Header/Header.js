@@ -4,7 +4,7 @@ import './Header.css';
 const Header = () => {
     const handleClickHeaderButton = () => {
         window.scrollTo({
-            top: 800,
+            top: 700,
             behavior: "smooth"
         });
     }
@@ -17,7 +17,7 @@ const Header = () => {
                 </div>
 
                 <div className='header_title'>
-                    Вторая жизнь пластика для растений
+                    Спаси растение
                 </div>
 
                 <div className='header_description'>
@@ -29,7 +29,7 @@ const Header = () => {
                 </button>
 
                 <div className='header_background_bottle_drops'>
-                    <object data={'./assets/images/header/bottle_drops.svg'} aria-label='svg' type='image/svg+xml'/>
+                    <object data={'./assets/images/header/footer_bottle.svg'} aria-label='svg' type='image/svg+xml'/>
                 </div>
             </div>
         </header>

@@ -9,7 +9,7 @@
 }
 
 .header_title {
-    width: 272px;
+    width: 330px;
     margin-top: 53px;
 
     font-weight: 700;
@@ -46,9 +46,10 @@
 }
 
 .header_background_bottle_drops {
-    width: 232px;
-    height: 221px;
-    margin-top: 60px;
+    width: 270px;
+    height: 270px;
+    margin-bottom: 40px;
+    margin-top: 20px;
     margin-left: -24px;
 }
 
