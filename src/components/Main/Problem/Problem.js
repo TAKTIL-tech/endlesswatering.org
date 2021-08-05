@@ -1,19 +1,19 @@
 import React from 'react';
 import './Problem.css';
 
-const Problem = () => {
+const Problem = ({data: {title, description}}) => {
 
     return (
         <section className='problem_section'>
             <h2 className='problem_header' data-aos={'fade-up'}>
-                В чем проблема?
+                {title}
             </h2>
             <ul className='problem_list'>
                 <li className='problem_list_item' data-aos={'fade-up'}>
                     <div className='problem_list_item_number'>1</div>
                     <img src={'./assets/images/problem/problem_01.svg'} alt={'problem'}/>
                     <p className='problem_list_item_description'>
-                        В жаркие дни растения не получают достаточно воды, поэтому начинают засыхать
+                        {description[0]}
                     </p>
                 </li>
 
@@ -21,7 +21,7 @@ const Problem = () => {
                     <div className='problem_list_item_number'>2</div>
                     <img src={'./assets/images/problem/problem_02.svg'} alt={'problem'}/>
                     <p className='problem_list_item_description'>
-                        Нерациональный полив: много воды уходит глубоко от корней и не даёт роста
+                        {description[1]}
                     </p>
                 </li>
 
@@ -29,7 +29,7 @@ const Problem = () => {
                     <div className='problem_list_item_number'>3</div>
                     <img src={'./assets/images/problem/problem_03.svg'} alt={'problem'}/>
                     <p className='problem_list_item_description'>
-                        Пластик не используется повторно и его становится только больше
+                        {description[2]}
                     </p>
                 </li>
             </ul>

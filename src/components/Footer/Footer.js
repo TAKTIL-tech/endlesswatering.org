@@ -1,16 +1,16 @@
 import React from 'react';
 import './Footer.css';
 
-const Footer = () => {
+const Footer = ({localization: {title, share, qrText, sponsored}}) => {
     return (
         <footer className='app_footer'>
             <div className='footer_container'>
                 <div className='footer_header'>
-                    Помогите распространить идею
+                    {title}
                 </div>
 
                 <span className='footer_share'>
-                    Поделиться в:
+                    {share}
                 </span>
                 <ul className='footer_list'>
                     <li className='footer_list_item'>
@@ -38,13 +38,13 @@ const Footer = () => {
                        href={'./assets/qr-endlesswatering.pdf'}
                        target="_blank"
                     >
-                        Скачать QR-код
+                        {qrText}
                     </a>
                 </div>
 
                 <div className='footer_sponsored_container'>
                     <p className='footer_sponsored_text'>
-                        Sponsored by
+                        {sponsored}
                     </p>
                     <a href='https://elang.app'>
                         <img src={'./assets/images/footer/footer_elang_logo.svg'} alt={'elang logo'}/>

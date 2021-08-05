@@ -1,0 +1,112 @@
+{
+  "ru": {
+    "header": {
+      "title": "Спаси растение",
+      "description": "Простейший капельный полив, который экономит воду и спасает растение",
+      "more": "Узнать больше"
+    },
+    "main": {
+      "problem": {
+        "title": "В чем проблема?",
+        "description": [
+          "В жаркие дни растения не получают достаточно воды, поэтому начинают засыхать",
+          "Нерациональный полив: много воды уходит глубоко от корней и не даёт роста",
+          "Пластик не используется повторно и его становится только больше"
+        ]
+      },
+      "solve": {
+        "title": "Решение!",
+        "description": [
+          "Капельный полив",
+          "- капли воды поступают из бутылки к корням несколько часов.",
+          "Вода и питательные вещества используются часто и небольшими дозами, что обеспечивает оптимальный рост растения."
+        ]
+      },
+      "howItsWork": {
+        "title": "Как это работает?",
+        "description": [
+          "- Бутылку с водой ставим под растение (с солнечной стороны)",
+          "- Прокалываем бутылку внизу кнопкой (лучше вынуть кнопку и не полностью вставить обратно)",
+          "- Кнопка должна остаться в бутылке",
+          "- Обязательно полностью открутить крышку",
+          "- Чтобы бутылку не выкинули, а использовали повторно другие люди, распечатать и наклеить QR-код"
+        ],
+        "qrText": "Скачать QR-код здесь"
+      },
+      "instruction": {
+        "title": "Наглядная инструкция"
+      },
+      "advantages": {
+        "title": "Преимущества",
+        "description": [
+          "Водяное пятно долго сохраняется в зоне растения",
+          "Бутылка, стоящая со стороны солнца, сохраняет растение от пересушивания",
+          "Бережное использование воды",
+          "Повторное использование пластиковой тары",
+          "Способ привлечёт внимание людей"
+        ]
+      }
+    },
+    "footer": {
+      "title": "Помогите распространить идею",
+      "share": "Поделиться в:",
+      "qrText": "Скачать QR-код",
+      "sponsored": "Sponsored by"
+    }
+  },
+  "en": {
+    "header": {
+      "title": "Save a plant",
+      "description": "The simplest drip irrigation that conserves water and saves the plant",
+      "more": "Learn more"
+    },
+    "main": {
+      "problem": {
+        "title": "What's the problem?",
+        "description": [
+          "Plants don't get enough water on hot days and dry up",
+          "Irrational watering: a lot of water goes deeper than the roots are and doesn't provide growth ",
+          "Plastic is not reused and it only becomes more of it"
+        ]
+      },
+      "solve": {
+        "title": "We've got the solution!",
+        "description": [
+          "Drip watering",
+          "- water is dropping from the bottle and is flowing to the roots for several hours.",
+          "Water and nutrients are consumed frequently in small portions, what gives a healthy grow to a plant."
+        ]
+      },
+      "howItsWork": {
+        "title": "How it works?",
+        "description": [
+          "- Put a bottle of water near the plant from the sunny side",
+          "- Puncture a bottom of the bottle",
+          "- The pin must stay in the bottle",
+          "- Unscrew the cap",
+          "- Print and glue QR-code, so that the bottle is not thrown but reused"
+        ],
+        "qrText": "Download QR-code here"
+      },
+      "instruction": {
+        "title": "Visual instructions"
+      },
+      "advantages": {
+        "title": "Benefits",
+        "description": [
+          "Water spot remains long in a plant's zone",
+          "A bottle saves a plant from the sun",
+          "Water conservation",
+          "Plastic reusage",
+          "The method draws attention"
+        ]
+      }
+    },
+    "footer": {
+      "title": "Help us spread the idea",
+      "share": "Share in:",
+      "qrText": "Download QR-code here",
+      "sponsored": "Sponsored by"
+    }
+  }
+}

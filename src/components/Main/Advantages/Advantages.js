@@ -1,41 +1,41 @@
 import React from 'react';
 import './Advantages.css'
 
-const Advantages = () => {
+const Advantages = ({data: {title, description}}) => {
     return (
         <section className='advantages_section'>
             <h2 className='advantages_header' data-aos={'fade-up'}>
-                Преимущества
+                {title}
             </h2>
             <ul className='advantages_list'>
                 <li className='advantages_list_item' data-aos={'fade-up'}>
                     <img src={'./assets/images/advantages/advantage_01.svg'} alt={'advantage'}/>
                     <p className='advantages_list_item_text'>
-                        Водяное пятно долго сохраняется в зоне растения
+                        {description[0]}
                     </p>
                 </li>
                 <li className='advantages_list_item' data-aos={'fade-up'}>
                     <img src={'./assets/images/advantages/advantage_02.svg'} alt={'advantage'}/>
                     <p className='advantages_list_item_text'>
-                        Бутылка, стоящая со стороны солнца, сохраняет растение от пересушивания
+                        {description[1]}
                     </p>
                 </li>
                 <li className='advantages_list_item' data-aos={'fade-up'}>
                     <img src={'./assets/images/advantages/advantage_03.svg'} alt={'advantage'}/>
                     <p className='advantages_list_item_text'>
-                        Бережное использование воды
+                        {description[2]}
                     </p>
                 </li>
                 <li className='advantages_list_item' data-aos={'fade-up'}>
                     <img src={'./assets/images/advantages/advantage_04.svg'} alt={'advantage'}/>
                     <p className='advantages_list_item_text'>
-                        Повторное использование пластиковой тары
+                        {description[3]}
                     </p>
                 </li>
                 <li className='advantages_list_item' data-aos={'fade-up'}>
                     <img src={'./assets/images/advantages/advantage_05.svg'} alt={'advantage'}/>
                     <p className='advantages_list_item_text'>
-                        Способ привлечёт внимание людей
+                        {description[4]}
                     </p>
                 </li>
             </ul>

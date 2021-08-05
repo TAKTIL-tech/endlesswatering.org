@@ -1,19 +1,18 @@
 import React from 'react';
 import './Solve.css';
 
-const Solve = () => {
+const Solve = ({data: {title, description}}) => {
     return (
         <section className='solve_section' data-aos={'fade-up'}>
             <h2 className='solve_header'>
-                Решение!
+                {title}
             </h2>
             <p className='solve_text'>
-                <span>Капельный полив </span>
-                - капли воды поступают из бутылки к корням несколько часов.
+                <span>{description[0]} </span>
+                {description[1]}
             </p>
             <p className='solve_text'>
-                Вода и питательные вещества используются часто и небольшими дозами, что обеспечивает оптимальный рост
-                растения.
+                {description[2]}
             </p>
         </section>
     );

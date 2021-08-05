@@ -1,10 +1,11 @@
 import React from 'react';
 import './Header.css';
 
-const Header = () => {
+const Header = ({localization: {title, description, more}}) => {
+
     const handleClickHeaderButton = () => {
         window.scrollTo({
-            top: 700,
+            top: 665,
             behavior: "smooth"
         });
     }
@@ -17,15 +18,15 @@ const Header = () => {
                 </div>
 
                 <div className='header_title'>
-                    Спаси растение
+                    {title}
                 </div>
 
                 <div className='header_description'>
-                    Простейший капельный полив, который экономит воду и спасает растение
+                    {description}
                 </div>
 
                 <button className='header_button' type='button' onClick={handleClickHeaderButton}>
-                    Узнать больше
+                    {more}
                 </button>
 
                 <div className='header_background_bottle_drops'>
